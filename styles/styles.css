@@ -180,6 +180,7 @@ header{
     .services{
         flex-direction: column;
         gap: 20px;
+        padding-bottom: 40px;
     }
 }
 
@@ -215,6 +216,19 @@ header{
 }
 /* hot deal style end */
 
+@media screen and (max-width: 576px) {
+    .hot-deal{
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .hot-deal-info{
+        margin: 20px;
+    }
+}
+
+
 /* insta style start */
 .insta{
     text-align: center;
@@ -244,6 +258,16 @@ header{
     gap: 24px;
 }
 /* insta style end */
+
+@media screen and (max-width: 576px) {
+    .insta{
+        margin: 20px;
+    }
+    .insta-flowers{
+        flex-direction: column;
+    }
+
+}
 
 /* get-latest-deal style start */
     .get-latest-deal{
@@ -290,6 +314,30 @@ header{
     }
 
 /* get-latest-deal style end */
+
+@media screen and (max-width: 576px) {
+    .get-latest-deal{
+        background-size:cover;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+    .get-latest-deal > h3{
+        color: #272727;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    #input-email{
+        width: 300px;
+        padding-left: 22px;
+    }
+}
+
 
 /* footer style start */
     footer{
