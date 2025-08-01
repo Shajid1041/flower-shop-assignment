@@ -127,9 +127,15 @@ header{
 /* feature-flowers style end */
 
 @media screen and (max-width : 576px) {
+    .feature-flowers{
+        margin-bottom: 70px;
+    }
     .feature-flowers-container{
         flex-direction: column;
         gap: 40px;
+    }
+    .feature-flowers > p{
+        margin: 20px 20px 40px 20px;
     }
     .feature-flower > div {
         height: 398px;
@@ -169,6 +175,14 @@ header{
 }
 
 /* service style end */
+
+@media screen and (max-width : 576px) {
+    .services{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 
 
 /* hot deal style start */
