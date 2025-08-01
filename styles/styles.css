@@ -240,3 +240,29 @@ header{
     }
 
 /* get-latest-deal style end */
+
+/* footer style start */
+    footer{
+        background-color: #111010;
+        text-align: center;
+        margin-top: 165px;
+        padding: 90px 648px 165px 648px;
+    }
+    footer > h3 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin:  0 0 24px 0;
+        color: white;
+    }
+    footer > h3 > span{
+        color: #e55473;
+    }
+    footer > p{
+        font-size: 1.1rem;
+        margin:  0 0 32px 0;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    footer > small{
+        color: rgba(255, 255, 255, 0.4);
+    }
+/* footer style end */
