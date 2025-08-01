@@ -164,3 +164,79 @@ header{
     margin-bottom: 32px;
 }
 /* hot deal style end */
+
+/* insta style start */
+.insta{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.insta > h3{
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+.insta > p{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+    max-width: 594px;
+    margin-bottom: 48px;
+}
+.insta-flowers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+/* insta style end */
+
+/* get-latest-deal style start */
+    .get-latest-deal{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-image: url(../FlowerAsset/Rectangle\ 9.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 122px;
+        padding-bottom: 122px;
+        margin-top: 128px;
+    }
+    .get-latest-deal > h3{
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #272727;
+        margin: 0 0 16px 0 ;
+        
+    }
+    .get-latest-deal > p{
+        font-size: 1.1rem;
+        color: rgba(39, 39, 39, 0.6);
+       margin: 0 0 48px 0 ;
+    }
+    .get-latest-deal > form{
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+    }
+    .get-latest-deal > form > input{
+        border: none;
+        border-radius: 8px;
+        
+        height: 64px;
+        
+    }
+    #input-email{
+        width: 650px;
+        padding-left: 22px;
+    }
+
+/* get-latest-deal style end */
