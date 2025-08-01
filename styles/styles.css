@@ -126,6 +126,22 @@ header{
 }
 /* feature-flowers style end */
 
+@media screen and (max-width : 576px) {
+    .feature-flowers-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .feature-flower > div {
+        height: 398px;
+        width: 344px;
+        
+    }
+    .feature-flower > div > img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /* service style start */
 .services{
     max-width: 1440px;
