@@ -364,3 +364,12 @@ header{
         color: rgba(255, 255, 255, 0.4);
     }
 /* footer style end */
+
+@media screen and (max-width:576px) {
+    footer{
+        background-color: #111010;
+        text-align: center;
+        margin-top: 165px;
+        padding: 60px 20px;
+    }
+}
